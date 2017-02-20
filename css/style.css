@@ -64,16 +64,10 @@ h2 {
 	margin-left: 200px;
 	margin-right: 200px;
 	margin-bottom: 0px;
-
 }
 
 div h2 {
 	color: #033048;
-}
-
-div p {
-	/*font-weight: 300;
-	font-size: 24px;*/
 }
 
 button {
@@ -94,9 +88,8 @@ button {
 
 button:hover {
 	background-color: #fbee81;
-	opacity: 90;
+	opacity: 0.9;
 }
-
 
 .intro {
 	display: block;
@@ -104,7 +97,6 @@ button:hover {
 	margin-left: 15%;
 	margin-right: 15%;
 }
-
 
 .testimonial {
 	display: block;
@@ -114,7 +106,6 @@ button:hover {
 
 blockquote {
   font-size: 30px;
-
 	font-weight: 300;
 	color: #fff;
   font-style: italic;
@@ -125,16 +116,14 @@ blockquote {
 
 span {
 	font-size: 30px;
-	font-style: bold;
 	font-weight: 600;
 }
 
 aside {
   background: #f9e42e;
   padding: 30px;
-  text-align: center
+  text-align: center;
 }
-
 
 h3 {
 	font-size: 40px;
@@ -160,10 +149,13 @@ p {
 ul {
 	font-size: 18px;
 	margin-top: 20px;
+	list-style: none;
+	text-decoration: none;
 }
 
 li {
 	line-height: 40px;
+		text-align: left;
 }
 
 header {
@@ -176,7 +168,6 @@ header {
 	margin: auto;
 }
 
-
 footer {
 	background-color: #121212;
 	height: 350px;
@@ -188,18 +179,22 @@ footer {
 
 /*///nav///*/
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding-right: 10%;
-		height: 120px;
-		width: 100%;
-    overflow: hidden;
-    background-color: #033048;
+  margin: 0;
+  padding-right: 10%;
+	height: 120px;
+	width: 100%;
+  overflow: hidden;
+  background-color: #033048;
+}
+
+a {
+	color: white;
+	text-decoration: none;
 }
 
 .home {
 	float: left;
-	margin: 40px 0px 0px 110px;
+	margin: 34px 0px 0px 110px;
 }
 
 .homelink {
@@ -213,20 +208,19 @@ nav li {
 }
 
 nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 35px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 35px 16px;
+  text-decoration: none;
 }
-
 
 
 /* Change link color to #111 (black) on hover */
 nav li a:hover {
-    background-color: #ccc;
-		height: 120px;
-		width: 100%;
+  background-color: #ccc;
+	height: 120px;
+	width: 100%;
 }
 
 
@@ -237,7 +231,10 @@ nav li a:hover {
 	margin-left: 10%;
 	height: 1650px;
 	width: 57%;
-	/*background-color: green;*/
+}
+
+.hero h2 {
+	color: #fff;
 }
 
 section h2 {
@@ -268,8 +265,8 @@ section a {
 }
 
 section a:hover {
-    color: #f9e42e;
-		text-decoration: underline;;
+  color: #f9e42e;
+	text-decoration: underline;;
 }
 
 .line {
@@ -291,8 +288,8 @@ section a:hover {
   padding-left: 3px;
 }
 
-/*sidebar styles*/
 
+/*sidebar styles*/
 .sidebar {
 	float: right;
 	margin-right: 10%;
@@ -300,27 +297,19 @@ section a:hover {
 	margin-bottom: 20px;
 	height: 1200px;
 	width: 20%;
-	/*background-color: red;*/
 }
 
 section ul {
-    list-style-type: none;
-    margin: 0;
-    padding-right: ;
-		width: 100%;
-    overflow: hidden;
-
-}
-
-section li {
-    float: left;
+	margin: 0;
+	width: 100%;
+  overflow: hidden;
 }
 
 section li a {
-    display: block;
-    color: #033048;
-    text-align: left;
-    text-decoration: none;
+  display: block;
+  color: #033048;
+	float: left;
+  text-decoration: none;
 }
 
 section h4 {
@@ -333,6 +322,8 @@ section h4 {
 .adunit {
 	width: 90%;
 }
+/*//////////////////*/
+
 
 /*marketing styles*/
 .marketing {
@@ -357,7 +348,7 @@ section button {
 
 section button:hover {
 	background-color: #ddd;
-	opacity: 90;
+	opacity: 0.9;
 }
 
 footer h4 {
@@ -373,6 +364,7 @@ footer p {
 	margin-top: 190px;
 	margin-right: 0;
 }
+/*//////////////////*/
 
 
 /*social media icons*/
@@ -385,3 +377,4 @@ footer p {
 	float: right;
 	margin-right: 44%;
 }
+/*//////////////////*/
